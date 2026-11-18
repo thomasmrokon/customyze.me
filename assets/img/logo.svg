@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <!-- Customyze Geometric Studio Mark -->
+  <defs>
+    <linearGradient id="primary-grad" x1="6" y1="6" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="20" y1="18" x2="38" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer hexagon / geometric frame -->
+  <rect x="4" y="4" width="40" height="40" rx="12" fill="#12151e" stroke="#23293a" stroke-width="1.5" />
+
+  <!-- Abstract interlocking C and Y nodes -->
+  <!-- Left curve / C-bracket -->
+  <path d="M 30 14 L 18 14 C 14.686 14 12 16.686 12 20 L 12 28 C 12 31.314 14.686 34 18 34 L 30 34" 
+        stroke="#94a3b8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Accent "Y" convergence point -->
+  <path d="M 22 20 L 28 26 L 34 20" 
+        stroke="url(#accent-grad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 28 26 L 28 34" 
+        stroke="url(#accent-grad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Glowing accent pip -->
+  <circle cx="28" cy="26" r="2" fill="#38bdf8" />
+</svg>

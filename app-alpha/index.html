@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Alpha (DocuFlow) – Schlanker Markdown-Workspace & Git-Sync | customyze.me</title>
+  <meta name="description" content="DocuFlow ist der minimalistische Markdown- und Dokumentations-Workspace für Entwickler. Synchronisiere technische Docs nahtlos mit GitHub und GitLab.">
+  <link rel="canonical" href="https://customyze.me/app-alpha/">
+
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://customyze.me/app-alpha/">
+  <meta property="og:title" content="App Alpha · DocuFlow – Markdown & Git Sync Hub">
+  <meta property="og:description" content="Der minimalistische Dokumentations-Workspace für Entwickler und technische Teams. Zero Bloat, blitzschnell und DSGVO-konform.">
+  <meta property="og:image" content="https://customyze.me/assets/img/logo.svg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="App Alpha · DocuFlow | customyze.me">
+  <meta name="twitter:description" content="Minimalistischer Markdown-Workspace für Entwickler und Teams.">
+  <meta name="twitter:image" content="https://customyze.me/assets/img/logo.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/img/logo.svg">
+
+  <!-- Central Design System -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="/" class="brand-link" aria-label="customyze.me Startseite">
+        <img src="/assets/img/logo.svg" alt="customyze.me Logo" width="32" height="32">
+        <span>custom<span class="brand-accent">y</span>ze.me</span>
+      </a>
+
+      <button class="mobile-nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav class="nav-menu">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#workflow" class="nav-link">So funktioniert's</a>
+        <a href="#pricing" class="nav-link">Preise</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="/" class="nav-link">← Alle Apps</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://alpha.customyze.me" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+          App starten
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- App Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-content">
+        <div class="hero-badge-wrap">
+          <span class="badge badge-accent badge-pill">
+            <span class="status-dot"></span> App Alpha · Produktivität &amp; Docs
+          </span>
+        </div>
+
+        <h1 class="hero-title">
+          Dokumentation ohne Reibung.<br>
+          <span class="gradient-text">Direkt mit Git synchronisiert.</span>
+        </h1>
+
+        <p class="hero-description">
+          DocuFlow ist der leichtgewichtige Markdown-Workspace für Entwickler und technische Teams. Schreibe Notizen, API-Docs und Spezifikationen mit Latenz gegen Null und automatischer Git-Versionskontrolle.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="https://alpha.customyze.me" target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-primary">
+            Jetzt kostenlos ausprobieren
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#pricing" class="btn btn-lg btn-secondary">Preise ansehen</a>
+        </div>
+
+        <!-- Stylized App Screenshot / Mockup Placeholder Container -->
+        <div class="mockup-wrapper">
+          <div class="mockup-window">
+            <div class="mockup-header">
+              <div class="mockup-dots">
+                <span class="mockup-dot"></span>
+                <span class="mockup-dot"></span>
+                <span class="mockup-dot"></span>
+              </div>
+              <div class="mockup-address-bar">
+                <span class="secure">🔒</span> https://alpha.customyze.me/workspace/architecture-overview.md
+              </div>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-placeholder-content">
+                <div class="mockup-placeholder-icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                  </svg>
+                </div>
+                <h3 style="font-size: 1.15rem; margin-bottom: 0.5rem; color: var(--text);">DocuFlow Live Editor</h3>
+                <p style="font-size: 0.875rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+                  Dual-Pane Live Preview, KaTeX-Support, Mermaid-Diagramme und automatische Git-Commits im Hintergrund.
+                </p>
+                <span class="badge badge-accent">Verbunden mit GitHub: /docs/main</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3-Column Feature Grid -->
+    <section id="features" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <span class="badge badge-accent">Leistungsmerkmale</span>
+          </div>
+          <h2 class="section-title">Warum DocuFlow?</h2>
+          <p class="section-subtitle">
+            Entwickelt für Entwickler, die den Fokus auf Inhalt legen wollen, ohne sich mit überladenen WYSIWYG-Tools herumzuschlagen.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="18" cy="18" r="3"></circle>
+                <circle cx="6" cy="6" r="3"></circle>
+                <path d="M13 6h3a2 2 0 0 1 2 2v7"></path>
+                <line x1="6" y1="9" x2="6" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">Echte Git-Synchronisation</h3>
+            <p class="feature-desc">
+              Deine Dokumente bleiben reine Markdown-Dateien in deinem eigenen Git-Repository. Kein Vendor-Lock-in, volle Historie per Commit.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-title">Mermaid &amp; Formel-Support</h3>
+            <p class="feature-desc">
+              Rendere Architekturdiagramme mit Mermaid.js und wissenschaftliche Formeln mit KaTeX direkt beim Tippen ohne Verzögerung.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Ende-zu-Ende verschlüsselt</h3>
+            <p class="feature-desc">
+              Temporäre Zwischenspeicher und Live-Kollaborations-Streams sind clientseitig verschlüsselt. Gespeichert in Frankfurt (EU).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3-Step Workflow -->
+    <section id="workflow" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <span class="badge badge-accent">Workflow</span>
+          </div>
+          <h2 class="section-title">In 3 Schritten zur sauberen Doku</h2>
+          <p class="section-subtitle">
+            Verbinde dein Repository und starte ohne lästige Setup-Skripte.
+          </p>
+        </div>
+
+        <div class="workflow-grid">
+          <div class="workflow-card">
+            <span class="workflow-step-num">Schritt 01</span>
+            <h3 class="workflow-title">Repository auswählen</h3>
+            <p class="workflow-desc">
+              Verbinde deinen GitHub- oder GitLab-Account mit einem Klick und wähle den Ordner (z.&nbsp;B. <code style="font-family: var(--font-mono);">/docs</code>) aus.
+            </p>
+          </div>
+
+          <div class="workflow-card">
+            <span class="workflow-step-num">Schritt 02</span>
+            <h3 class="workflow-title">Schreiben &amp; Formatieren</h3>
+            <p class="workflow-desc">
+              Nutze den blitzschnellen Editor mit Auto-Formatting, Bild-Uploads und Live-Vorschau im Browser.
+            </p>
+          </div>
+
+          <div class="workflow-card">
+            <span class="workflow-step-num">Schritt 03</span>
+            <h3 class="workflow-title">Automatisch syncen</h3>
+            <p class="workflow-desc">
+              Änderungen werden als saubere Commits mit deinem Autorenprofil direkt in das Git-Repo zurückgespielt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <span class="badge badge-accent">Tarife</span>
+          </div>
+          <h2 class="section-title">Transparente Preise</h2>
+          <p class="section-subtitle">
+            Kostenlos starten. Upgrade für unbegrenzte private Repositories und Team-Sync.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Starter Tier -->
+          <div class="pricing-card">
+            <h3 class="pricing-plan-name">Community Starter</h3>
+            <p class="pricing-plan-desc">Ideal für Open-Source-Projekte und persönliche Notizen.</p>
+            <div class="pricing-price-wrap">
+              <span class="pricing-amount">0&nbsp;€</span>
+              <span class="pricing-interval">/ dauerhaft frei</span>
+            </div>
+
+            <ul class="pricing-features-list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Bis zu 3 verbundene Repositories
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Vollständiger Markdown- &amp; Mermaid-Editor
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Hosting in Frankfurt (<code style="font-family: var(--font-mono);">europe-west3</code>)
+              </li>
+              <li class="disabled">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+                Echtzeit-Kollaboration für Teams
+              </li>
+            </ul>
+
+            <a href="https://alpha.customyze.me" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              Kostenlos nutzen
+            </a>
+          </div>
+
+          <!-- Pro Tier -->
+          <div class="pricing-card featured">
+            <div class="pricing-badge-top">
+              <span class="badge badge-accent">Beliebt für Entwickler</span>
+            </div>
+            <h3 class="pricing-plan-name">Pro Studio</h3>
+            <p class="pricing-plan-desc">Für Entwickler, Agenturen und wachsende Engineering-Teams.</p>
+            <div class="pricing-price-wrap">
+              <span class="pricing-amount">9&nbsp;€</span>
+              <span class="pricing-interval">/ Monat</span>
+            </div>
+
+            <ul class="pricing-features-list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <strong>Unbegrenzte Repositories (Public &amp; Private)</strong>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Live-Multiplayer-Editing mit Teammitgliedern
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Branch-Management &amp; Pull-Request-Erstellung
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Prioritärer Support &amp; SLA
+              </li>
+            </ul>
+
+            <a href="https://alpha.customyze.me/upgrade" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Pro aktivieren
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <span class="badge badge-accent">FAQ</span>
+          </div>
+          <h2 class="section-title">Häufige Fragen zu DocuFlow</h2>
+          <p class="section-subtitle">
+            Kläre die wichtigsten technischen Details vorab.
+          </p>
+        </div>
+
+        <div class="faq-wrap">
+          <details class="faq-item">
+            <summary class="faq-summary">
+              <span>Hat DocuFlow Zugriff auf mein gesamtes Git-Repository?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              Nein. Bei der OAuth-Verbindung kannst du granular festlegen, welche Repositories freigegeben werden. Zudem beschränkt DocuFlow seine Lese- und Schreibvorgänge strikt auf den von dir konfigurierten Dokumentationspfad.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-summary">
+              <span>Kann ich DocuFlow auch offline nutzen?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              Ja, die App verwendet moderne Service Worker und IndexedDB-Caching. Wenn deine Verbindung abbricht, kannst du unterbrechungsfrei weiterarbeiten; die Änderungen werden synchronisiert, sobald du wieder online bist.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-summary">
+              <span>Wo werden meine Daten gespeichert?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              Deine Dokumente liegen in deinem Git-Repository. Alle flüchtigen Daten (Sitzungstoken, Synchronisationszustände) werden auf Google Cloud / Firebase Servern in Frankfurt am Main (<code style="font-family: var(--font-mono);">europe-west3</code>) nach europäischen Datenschutzstandards verarbeitet. Siehe auch unsere <a href="/datenschutz/">Datenschutzerklärung</a>.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="brand-link" aria-label="customyze.me Startseite">
+            <img src="/assets/img/logo.svg" alt="customyze.me Logo" width="28" height="28">
+            <span>custom<span class="brand-accent">y</span>ze.me</span>
+          </a>
+          <p class="footer-brand-p">
+            Unabhängiges Indie-App-Studio für fokussierte, minimalistische und datenschutzfreundliche Webanwendungen.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Apps &amp; Hub</h4>
+          <ul class="footer-links">
+            <li><a href="/">← Zurück zur Übersicht</a></li>
+            <li><a href="/app-beta/">App Beta (MetricPulse)</a></li>
+            <li><a href="https://alpha.customyze.me" target="_blank" rel="noopener noreferrer">Direkt zur Web-App ↗</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Rechtliches &amp; Kontakt</h4>
+          <ul class="footer-links">
+            <li><a href="/impressum/">Impressum</a></li>
+            <li><a href="/datenschutz/">Datenschutzerklärung</a></li>
+            <li><a href="mailto:kontakt@customyze.me">kontakt@customyze.me</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span class="current-year">2026</span> customyze.me · Alle Rechte vorbehalten.
+        </div>
+        <div>
+          Hosting: GitHub Pages &amp; Google Cloud (Frankfurt, EU)
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
