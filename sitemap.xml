@@ -42,4 +42,10 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://customyze.me/familycrew/</loc>
+  </url>
+  <url>
+    <loc>https://customyze.me/motionlog/</loc>
+  </url>
 </urlset>
